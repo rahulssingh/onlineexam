@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head> <CENTER><B><H1>SCHEDULE EXAMINTAION</B></H1></CENTER>
+</head>
+<body ng-app="examinationSystem">
+<CENTER> 
+
+
+<form action="/action_page.html">
+  Set  Date:
+  <input type="date" ng-model="date"><br><br>
+  Course:
+  <input type= "text" ng-model ="course"><br><br>
+  Subject:
+  <input type="text"  ng-model ="subject"><br><br><br>
+  <button ng-click=submit>submit</button>
+<button ng-click = view()>View</button>
+</form>
+
+
+</CENTER>
+
+
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src ="controllers/scheduleController"></script>
+</body>
+</html>
